@@ -1,0 +1,12 @@
+<h1>{{ movie.title }}</h1>
+<div>
+  <div class="inline">
+    <img [src]="'assets/poster/' + movie.poster + '.jpg'" alt="Poster" style="width:400px">
+  </div>
+  <div class="inline">
+    <span>{{ movie.rating }}/5</span><br/>
+    <span>{{ movie.genre }}</span><br/>
+    <!-- TODO Display the description and the actors of the movie -->
+
+  </div>
+</div>

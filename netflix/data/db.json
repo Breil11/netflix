@@ -1,0 +1,152 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Godfather",
+      "poster": "The_Godfather",
+      "description": "A powerful mafia family struggles to maintain control of their empire amidst changing times.",
+      "genre": "Crime",
+      "rating": 5,
+      "mainActors": [
+        "Marlon Brando",
+        "Al Pacino",
+        "James Caan"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Titanic",
+      "poster": "Titanic",
+      "description": "A young woman falls in love with a poor artist aboard the doomed ship Titanic.",
+      "genre": "Romance",
+      "rating": 4,
+      "mainActors": [
+        "Leonardo DiCaprio",
+        "Kate Winslet"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The Shawshank Redemption",
+      "poster": "The_Shawshank_Redemption",
+      "description": "A man is wrongfully convicted of murder and must find a way to survive in prison.",
+      "genre": "Drama",
+      "rating": 5,
+      "mainActors": [
+        "Tim Robbins",
+        "Morgan Freeman"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Forrest Gump",
+      "poster": "Forrest_Gump",
+      "description": "A man with a low IQ achieves great things in his life, including running across the country multiple times.",
+      "genre": "Drama",
+      "rating": 4.5,
+      "mainActors": [
+        "Tom Hanks",
+        "Robin Wright"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "The Matrix",
+      "poster": "The_Matrix",
+      "description": "A computer hacker discovers that his reality is not what it seems and must fight against a powerful system.",
+      "genre": "Sci-Fi",
+      "rating": 4.5,
+      "mainActors": [
+        "Keanu Reeves",
+        "Laurence Fishburne"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Jaws",
+      "poster": "Jaws",
+      "description": "A man-eating great white shark terrorizes a beach community.",
+      "genre": "Horror",
+      "rating": 3,
+      "mainActors": [
+        "Roy Scheider",
+        "Robert Shaw",
+        "Richard Dreyfuss"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Star Wars: Episode IV - A New Hope",
+      "poster": "Star_Wars",
+      "description": "A farm boy joins a rebellion against an evil empire in a galaxy far, far away.",
+      "genre": "Sci-Fi",
+      "rating": 5,
+      "mainActors": [
+        "Mark Hamill",
+        "Harrison Ford",
+        "Carrie Fisher"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "The Silence of the Lambs",
+      "poster": "The_Silence_of_the_Lambs",
+      "description": "An FBI trainee seeks the help of a cannibalistic serial killer to catch another serial killer.",
+      "genre": "Crime",
+      "rating": 4.5,
+      "mainActors": [
+        "Jodie Foster",
+        "Anthony Hopkins"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "The Lion King",
+      "poster": "The_Lion_King",
+      "description": "A young lion prince must reclaim his throne from his uncle who has killed his father.",
+      "genre": "Animation",
+      "rating": 4,
+      "mainActors": [
+        "Matthew Broderick",
+        "James Earl Jones"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "The Dark Knight",
+      "poster": "The_Dark_Knight",
+      "description": "Batman must stop the Joker's reign of terror in Gotham City",
+      "genre": "Action",
+      "rating": 4.5,
+      "mainActors": [
+        "Christian Bale",
+        "Heath Ledger"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Jurassic Park",
+      "poster": "Jurassic_Park",
+      "description": "A billionaire creates a theme park filled with genetically-engineered dinosaurs that ultimately go rogue.",
+      "genre": "Adventure",
+      "rating": 3,
+      "mainActors": [
+        "Sam Neill",
+        "Laura Dern",
+        "Jeff Goldblum"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Back to the Future",
+      "poster": "Back_to_the_Future",
+      "description": "A teenager travels back in time to ensure his parents fall in love and return to his own time.",
+      "genre": "Sci-Fi",
+      "rating": 4,
+      "mainActors": [
+        "Michael J. Fox",
+        "Christopher Lloyd"
+      ]
+    }
+  ]
+}
