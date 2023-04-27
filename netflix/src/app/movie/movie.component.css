@@ -1,3 +1,8 @@
 .inline {
   display: inline-block;
 }
+
+/* J'ai rajouté de la couleur aux informations 😇*/
+strong{
+  color: rgb(38, 133, 174);
+}

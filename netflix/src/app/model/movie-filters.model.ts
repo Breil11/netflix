@@ -4,4 +4,6 @@ export interface MovieFilters {
   genre: string;
   rating: number;
 
+  minimumRate?: number;
+
 }

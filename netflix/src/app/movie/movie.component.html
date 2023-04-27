@@ -4,9 +4,15 @@
     <img [src]="'assets/poster/' + movie.poster + '.jpg'" alt="Poster" style="width:400px">
   </div>
   <div class="inline">
-    <span>{{ movie.rating }}/5</span><br/>
-    <span>{{ movie.genre }}</span><br/>
+    <p><strong>Ce film a une note de :</strong> <span>{{ movie.rating }}/5</span><br/></p>
+    
+    <p><strong>Genre: </strong> <span>{{ movie.genre }}</span><br/></p>
     <!-- TODO Display the description and the actors of the movie -->
+    <!-- j'ai rajouté un texte et un style pour avoir plus de précision au niveau de l'affichage des informations du film-->
+    <p><strong>Ce film a pour description: </strong><span>{{ movie.description }}</span><br/></p>
+    <p><strong>Ce film a comme auteurs principaux: </strong><span>{{ movie.mainActors }}</span><br/></p>
+    
+    
 
   </div>
 </div>
