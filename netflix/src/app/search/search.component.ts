@@ -16,8 +16,8 @@ export class SearchComponent {
   genres: string[] = ['All Movies', 'Crime', 'Romance', 'Drama', 'Sci-Fi', 'Horror', 'Animation', 'Action', 'Adventure', 'Western']; // on définit les genres
   ratings: number[] = [1, 2, 3, 4, 5]; // on définit les classements
   selectedGenre: string = '';
-  selectedRating: string = '';
-  filteredMovies: Movie[]; // Nouvelle propriété pour stocker les films filtrés
+  selectedRating: number = null;
+  filteredMovies: Movie[]; // nouvelle propriété pour stocker les films filtrés
 
 
   constructor(private moviesService: MoviesService) {
@@ -34,7 +34,7 @@ export class SearchComponent {
     // Créer une instance de MovieFilters avec les valeurs des filtres de genre et de classement
     const filters: MovieFilters = {
       genre: this.selectedGenre,
-      rating: this.selectedRating
+      rating: this.selectedRating 
     };
 
     // Appeler la méthode getFilteredMovies$() du service MoviesService avec les valeurs des filtres
